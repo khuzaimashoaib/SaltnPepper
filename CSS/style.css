@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+@font-face {
+  font-family: "Apercu";
+  src: url("../Fonts/Apercu_Regular.otf");
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../Fonts/Butler_Regular.otf");
+}
+
 body {
   margin: 0 auto;
+  background-color: #000;
 }
 .main_header {
   width: 100%;
-  background-color: #000;
 }
 
 .head_div {
@@ -46,5 +55,112 @@ body {
   display: flex;
   gap: 10px;
 }
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+.footer_section {
+  padding: 70px 15px 0 15px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
 
+.custom_div {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.footer_div {
+  display: grid;
+  position: relative;
+  width: 100%;
+  gap: 30px 45px;
+  padding-bottom: 55px;
+  z-index: 1;
+  grid-template-columns: 1.5fr 0.8fr 1fr 0.8fr;
+  grid-template-rows: auto;
+  grid-template-areas: ". . . .";
+}
+
+.detail_box div,
+p {
+  padding-bottom: 24px;
+}
+.detail_box_one img {
+  padding-bottom: 24px;
+}
+.detail_box_one p {
+  font-family: "Apercu";
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-style: normal;
+}
+.detail_box_one,
+.contact_box_2 li a {
+  font-weight: 400;
+  font-family: "Apercu";
+  line-height: 20px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-decoration: none;
+}
+.links li {
+  display: inline-block;
+  padding-right: 10px;
+}
+.contact_box_2 li {
+  padding-bottom: 16px;
+}
+
+.con_heading {
+  font-weight: 700;
+  font-size: 16px;
+}
+.detail_box h3 {
+  font-family: "Butler";
+  font-weight: 700;
+  font-size: 16px;
+}
+.social_links a {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #ed1c24;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.social_links {
+  display: flex;
+}
+.app_links li {
+  margin-bottom: 13px;
+}
+
+.copy_right_footer {
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px;
+  color: #fff;
+}
+
+.copy_right {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-between;
+}
