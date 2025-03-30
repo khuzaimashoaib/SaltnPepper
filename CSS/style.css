@@ -312,6 +312,7 @@ p {
   font-family: "futurak";
   line-height: 29px;
 }
+.fran_2_card p,
 .fran_detail p {
   padding: 0;
   margin-bottom: 10px;
@@ -343,7 +344,7 @@ p {
 }
 
 .fran_2_sec {
-  margin:  auto;
+  margin: auto;
   width: 70%;
   padding: 70px 0 38px 0;
   color: #fff;
@@ -358,7 +359,7 @@ p {
   line-height: 60px;
   margin-bottom: 30px;
 }
-.fran_2_sec .snp {
+.fran_2_sec_row .snp {
   font-family: "futurak";
   font-size: 52px;
   line-height: 62px;
@@ -371,6 +372,7 @@ p {
 .fran_2_card {
   width: 100%;
   padding: 0 12px;
+  margin-bottom: 32px;
   justify-items: center;
 }
 .fran_2_card img {
@@ -387,5 +389,27 @@ p {
   margin-bottom: 8px;
   margin-top: 24px;
   display: block;
+}
+.fran_2_card h3 {
+  font-family: "Apercu";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.fran_2_card .snp {
+  font-family: "futurak";
+}
+.fran_2_card p {
+  font-family: "Apercu";
+  font-size: 14px;
+  padding-bottom: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  height: 36px;
+  margin: 0;
+}
+.fran_2_card a {
+  margin-top: 20px;
 }
 
