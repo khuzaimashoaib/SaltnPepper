@@ -284,8 +284,9 @@ p {
   flex: 1;
   padding: 0 12px;
 }
-
+.fran_3_card_detail small,
 .fran_detail small {
+  font-family: "Apercu";
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -300,25 +301,30 @@ p {
   height: 346px;
   /* display: block; */
 }
+.fran_3_card_detail h3,
 .fran_detail h3 {
+  font-family: "Apercu";
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
   color: #ffffff;
   margin-bottom: 24px;
 }
-
+.fran_3_card_detail .snp,
 .fran_detail .snp {
   font-family: "futurak";
   line-height: 29px;
 }
+.fran_3_card_detail p,
 .fran_2_card p,
 .fran_detail p {
+  font-family: "Apercu";
   padding: 0;
   margin-bottom: 10px;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
 }
+.fran_3_card_detail a,
 .fran_detail a,
 .fran_2_card a {
   display: flex;
@@ -352,14 +358,16 @@ p {
   display: flex;
 }
 
-.fran_2_sec h2 {
+.fran_2_sec h2,
+.fran_3_sec h2 {
   font-family: "Butler";
   font-weight: 500;
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 30px;
 }
-.fran_2_sec_row .snp {
+.fran_2_sec_row .snp,
+.fran_3_sec_row .snp {
   font-family: "futurak";
   font-size: 52px;
   line-height: 62px;
@@ -412,4 +420,75 @@ p {
 .fran_2_card a {
   margin-top: 20px;
 }
+.fran_3_sec {
+  margin: auto;
+  width: 100%;
+  padding: 48px 0px;
+  color: #fff;
+  text-align: center;
+}
+.fran_3_sec_row h2 {
+  margin-bottom: 20px;
+}
+.fran_3_sec_cont {
+  display: flex;
+}
 
+.fran_3_sec_cont img {
+  margin: auto;
+  padding: 0 12px;
+}
+
+.fran_3_card_detail {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.fran_3_detail {
+  margin: auto 12px;
+  padding-top: 16px;
+}
+
+.arrow_two {
+  background-color: #fff;
+  color: #28a745;
+  border-radius: 30px;
+  padding: 8px 8px;
+  margin-left: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.fran_3_card_detail a {
+  background-color: #28a745;
+  border: 1px solid #28a745 !important ;
+}
+.fran_3_card_detail a:hover {
+  background-color: #000;
+}
+
+.social_feed_sec {
+  padding-bottom: 60px;
+  color: #fff;
+  text-align: center;
+}
+.social_feed_sec h3 {
+  font-family: "Butler";
+  font-size: 32px;
+  padding-bottom: 32px;
+}
+
+.social_feed_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social_feed_img img {
+  flex: 1;
+  height: auto;
+  width: 0px;
+  padding: 0 10px;
+}
