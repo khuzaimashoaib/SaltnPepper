@@ -357,7 +357,7 @@ p {
   text-align: center;
   display: flex;
 }
-
+.express_fran h2,
 .fran_2_sec h2,
 .fran_3_sec h2 {
   font-family: "Butler";
@@ -469,6 +469,70 @@ p {
   background-color: #000;
 }
 
+.express_fran {
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0 38px 0;
+  color: #fff;
+  text-align: center;
+}
+.express_fran_cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.express_fran small {
+  font-family: "Inter";
+  font-size: 24px;
+}
+.express_fran_card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 24px 24px;
+  margin: 0 12px 32px 12px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  flex: 1 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.express_fran_card img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+.express_fran_card small {
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #ed1c24;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.express_fran_card p,
+.express_fran_card h4 {
+  font-family: "FuturaBlack BT";
+  font-size: 21px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 30px;
+}
+
+.express_fran_card span {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
 .social_feed_sec {
   padding-bottom: 60px;
   color: #fff;
@@ -491,4 +555,72 @@ p {
   height: auto;
   width: 0px;
   padding: 0 10px;
+}
+
+.pub_main {
+  width: 70%;
+  padding: 72px 0;
+  font-family: "Inter";
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.pub_row {
+  display: flex;
+}
+
+.pub_img {
+  margin: 0 12px 32px 12px;
+  padding: 32px 0 40px 0;
+  border: 1px solid #ffffff52;
+  flex: 1;
+}
+
+.pub_img img {
+  width: 100%;
+  height: auto;
+}
+.pub_text h3 {
+  font-family: "Butler";
+  font-size: 32px;
+  margin: 32px 0 24px;
+}
+.pub_cont_info {
+  margin-bottom: 12px;
+}
+.pub_cont_info span {
+  margin-top: 12px;
+  line-height: 36px;
+}
+.pub_cont_info p {
+  padding: 0%;
+  margin-bottom: 10px;
+  font-family: "Apercu";
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.pub_cont_info a {
+  font-family: "Apercu";
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.about_us_row {
+  font-size: 32px;
+}
+.about_us_row h4 {
+  line-height: normal;
+  font-family: "Butler";
+  margin-bottom: 10px;
+}
+.about_us_row .snp {
+  line-height: normal;
+  font-family: "futurak";
+  font-weight: 400;
+  font-size: 32px;
+}
+.about_us_v_fran {
+  text-align: left;
 }
