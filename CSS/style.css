@@ -350,12 +350,13 @@ p {
 }
 
 .fran_2_sec {
-  margin: auto;
-  width: 70%;
+  margin: 0 auto;
+  width: 100%;
   padding: 70px 0 38px 0;
   color: #fff;
   text-align: center;
   display: flex;
+  justify-content: center;
 }
 .express_fran h2,
 .fran_2_sec h2,
